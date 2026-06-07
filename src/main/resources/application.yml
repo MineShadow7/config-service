@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:/Users/shad-/Documents/IdeaProjects/config-repo
+          uri: https://github.com/MineShadow7/config-repo
           search-paths: /
 
 server:
