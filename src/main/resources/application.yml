@@ -6,7 +6,9 @@ spring:
       server:
         git:
           uri: https://github.com/MineShadow7/config-repo
-          search-paths: /
+          default-label: master
+          clone-on-start: true
+          basedir: target/config-repo-clone
 
 server:
   port: 8888
